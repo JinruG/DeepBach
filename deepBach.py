@@ -1,8 +1,6 @@
 """
 @author: Gaetan Hadjeres
-Modified: training defaults tuned for RTX 4050 laptop GPU,
-          best-val-loss checkpointing, LR scheduler, cuda() before train,
-          friendly error when pretrained weights are missing.
+
 """
  
 import os
