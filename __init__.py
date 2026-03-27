@@ -1,5 +1,3 @@
-# deepbach_pytorch/__init__.py
-
 import os
 import sys
 import shutil
