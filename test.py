@@ -23,7 +23,7 @@ CUSTOM_MIDI_DIR = ""
 OUTPUT_DIR      = "./test_outputs"
 
 # --- harmonize() parameters --------------------------------------------------
-HARMONIZE_ITERATIONS      = 3000   # Gibbs sampling iterations (higher = slower, better)
+HARMONIZE_ITERATIONS      = 5000   # Gibbs sampling iterations (higher = slower, better)
 HARMONIZE_TEMPERATURE     = 0.5    # Sampling temperature: 1.0 standard, <1 conservative
 HARMONIZE_BATCH_PER_VOICE = 64     # Parallel Gibbs proposals per step
 HARMONIZE_MELODY_VOICE    = 0      # Fixed voice index: 0 = soprano
